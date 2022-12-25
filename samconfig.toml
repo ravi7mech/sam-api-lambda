@@ -1,0 +1,22 @@
+version = 0.1
+[dev]
+[dev.deploy]
+[dev.deploy.parameters]
+stack_name = "sam-hello-world-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1kh09tbarvp6g"
+s3_prefix = "sam-hello-world-api"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-hello-world-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1kh09tbarvp6g"
+s3_prefix = "sam-hello-world-api"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
